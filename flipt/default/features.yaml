@@ -18,3 +18,7 @@ segments:
       name: Dev
       description: Development segment?
       match_type: ALL_MATCH_TYPE
+    - key: test
+      name: Test
+      description: Test segment?
+      match_type: ALL_MATCH_TYPE
