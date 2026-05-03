@@ -8,6 +8,12 @@ flags:
       type: BOOLEAN_FLAG_TYPE
       description: Really cool feature 1
       enabled: false
+      rollouts:
+        - segment:
+            keys:
+                - dev
+            operator: OR_SEGMENT_OPERATOR
+            value: true
     - key: feature2
       name: feature2
       type: BOOLEAN_FLAG_TYPE
