@@ -22,3 +22,7 @@ segments:
       name: Test
       description: Test segment?
       match_type: ALL_MATCH_TYPE
+    - key: prod
+      name: Prod
+      description: Production Segment
+      match_type: ALL_MATCH_TYPE
