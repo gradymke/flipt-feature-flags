@@ -13,3 +13,8 @@ flags:
       type: BOOLEAN_FLAG_TYPE
       description: Super cool second feature.
       enabled: false
+segments:
+    - key: dev
+      name: Dev
+      description: Development segment?
+      match_type: ALL_MATCH_TYPE
