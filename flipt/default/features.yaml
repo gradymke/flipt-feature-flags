@@ -1,0 +1,10 @@
+version: "1.5"
+namespace:
+    key: default
+    name: Default
+flags:
+    - key: feature1
+      name: feature1
+      type: BOOLEAN_FLAG_TYPE
+      description: Really cool feature 1
+      enabled: false
