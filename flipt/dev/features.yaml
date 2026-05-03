@@ -1,0 +1,5 @@
+version: "1.5"
+namespace:
+  key: dev
+  name: dev
+  description: Dev environment
