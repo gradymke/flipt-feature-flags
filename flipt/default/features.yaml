@@ -8,3 +8,8 @@ flags:
       type: BOOLEAN_FLAG_TYPE
       description: Really cool feature 1
       enabled: false
+    - key: feature2
+      name: feature2
+      type: BOOLEAN_FLAG_TYPE
+      description: Super cool second feature.
+      enabled: false
